@@ -347,6 +347,7 @@ onBlur:    (e: React.FocusEvent<HTMLInputElement>) => void
 
 ## A Complete Component Example
 
+{% raw %}
 ```tsx
 // src/components/TaskList.tsx
 import type { FC } from "react"
@@ -408,6 +409,7 @@ const TaskList: FC<TaskListProps> = ({ tasks, onToggle, onDelete }) => {
 
 export default TaskList
 ```
+{% endraw %}
 
 ---
 

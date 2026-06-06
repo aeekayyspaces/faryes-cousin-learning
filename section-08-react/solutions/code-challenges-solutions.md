@@ -10,6 +10,7 @@ Reference solutions for [09 — Quiz and Checkpoints](../09-quiz-and-checkpoints
 
 ## Challenge 1: `CryptoTicker` with Polling
 
+{% raw %}
 ```tsx
 // src/components/CryptoTicker.tsx
 import { useState, useEffect, useRef } from "react"
@@ -78,6 +79,7 @@ export function CryptoTicker({ coinId, refreshInterval = 30_000 }: CryptoTickerP
   )
 }
 ```
+{% endraw %}
 
 **Key patterns demonstrated:**
 - `useRef` for the `AbortController` (mutable, no re-render needed)
@@ -104,6 +106,7 @@ export function useDebounce<T>(value: T, delay: number): T {
 }
 ```
 
+{% raw %}
 ```tsx
 // src/components/LiveSearch.tsx
 import { useState, useEffect } from "react"
@@ -175,6 +178,7 @@ export function LiveSearch() {
   )
 }
 ```
+{% endraw %}
 
 ---
 
@@ -278,6 +282,7 @@ export function useLocalStorage<T>(key: string, initial: T) {
 }
 ```
 
+{% raw %}
 ```tsx
 // src/TodoApp.tsx
 import { useState } from "react"
@@ -395,6 +400,7 @@ function TodoItem({ todo, priorityColor, onToggle, onDelete }: TodoItemProps) {
   )
 }
 ```
+{% endraw %}
 
 ---
 

@@ -192,6 +192,7 @@ function Button({
 
 Use the `style` prop for styles that depend on JavaScript values — not as a general styling approach:
 
+{% raw %}
 ```tsx
 // ✅ Good use — value comes from data/state
 function ProgressBar({ value }: { value: number }) {
@@ -224,6 +225,7 @@ function PriorityDot({ color }: { color: string }) {
   Click me
 </button>
 ```
+{% endraw %}
 
 **Inline style syntax:**
 - Uses a JavaScript object, not a string

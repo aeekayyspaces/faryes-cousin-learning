@@ -288,6 +288,7 @@ export function CalcButton({
 
 ## Step 6: The `Display` Component
 
+{% raw %}
 ```tsx
 // src/components/Display.tsx
 import styles from "./Display.module.css"
@@ -322,6 +323,7 @@ export function Display({ expression, current, hasError }: DisplayProps) {
   )
 }
 ```
+{% endraw %}
 
 ```css
 /* src/components/Display.module.css */
