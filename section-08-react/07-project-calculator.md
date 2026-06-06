@@ -1,3 +1,7 @@
+---
+render_with_liquid: false
+---
+
 # 07 — Project: Build a Calculator App in React + TypeScript
 
 ## Overview

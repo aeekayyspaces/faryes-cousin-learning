@@ -1,3 +1,7 @@
+---
+render_with_liquid: false
+---
+
 # Solutions — Code Challenges
 
 Reference solutions for [09 — Quiz and Checkpoints](../09-quiz-and-checkpoints.md).

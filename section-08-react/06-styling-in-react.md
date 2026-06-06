@@ -1,3 +1,7 @@
+---
+render_with_liquid: false
+---
+
 # 06 — Styling in React
 
 ## Learning Objectives
